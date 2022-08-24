@@ -1,0 +1,965 @@
+/* Global CSS */
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header-icon{
+    color: white;
+    padding: 15px 0px;
+    font-size: 18px;
+    letter-spacing: 15px;
+    cursor: pointer;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section-heading{
+    text-align: center;
+    padding: 20px 0px 10px;
+}
+
+.section-logo{
+    display: block;
+    margin: 0 auto;
+}
+
+/* Header Section CSS */
+
+header{
+    width: 100%;
+    float: left;
+    background-color: #262A37;
+
+}
+
+.header-left{
+    width: 50%;
+    float: left;
+}
+
+.header-right{
+    width: 50%;
+    float: left;
+}
+
+.header-right a{
+    color: white;
+    float: left;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+.divider{
+    color: white;
+    padding: 15px;
+    float: left;
+    font-size: 16px;
+}
+
+.fa-user {
+    padding-left: 154px;
+}
+
+/* Navigation Section CSS */
+
+.nav-top-section{
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+
+.contact-top{
+    width: 33.3333%;
+    float: left;
+}
+
+.branding{
+    width: 33.3333%;
+    float: left;
+} 
+
+.contact-time{
+    width: 33.3333%;
+    float: left;
+}
+
+.fa-phone{
+    color: #ffd900;
+    font-size: 30px;
+    float: left;
+}
+
+.nav-black-heading{
+    font-size: 15px;
+    padding-top: 15px;
+    font-weight: 900;
+}
+
+.nav-ash-heading{
+    color: #928FAE;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.branding-logo{
+    display: block;
+    margin: 0 auto;
+}
+
+.fa-clock-o{
+    color: #ffd900;
+    font-size: 30px;
+    float: left;
+    padding-left: 119px;
+}
+
+.nav-down-section{
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    padding: 50px 0px 0px;
+    box-shadow: 0 15px 10px -12px grey;
+}
+
+nav ul li{
+    width: 93px;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding: 15px 20px 15px;
+    color: white;
+}
+
+.home{
+    background-color: #ffd900;
+}
+
+.nav-hover:hover{
+    background-color: #ffd900;
+    cursor: pointer;
+}
+
+/* Banner Section CSS */
+
+.banner{
+    width: 100%;
+    height: 600px;
+    float: left;
+    background-image: url(../images/hero.png);
+}
+
+.banner-left{
+    width: 50%;
+    float: left;
+    padding: 200px 0px 158px;
+}
+
+.banner-right{
+    width: 50%;
+    float: left;
+    padding: 175px 0px 0px;
+}
+
+.banner-left h3{
+    width: 20%;
+    float: left;
+    padding-top: 10PX;
+}
+
+.banner-left img{
+    width: 25%;
+    height: 40px;
+    display: block;
+    float: left;
+
+}
+
+.banner-left h1{
+    width: 100%;
+    float: left;
+    font-size: 37px;
+    padding: 15px 0px;
+}
+
+.shopping-text{
+    color: #ffd900;
+    
+}
+
+.banner-left p{
+    width: 100%;
+    float: left;
+    line-height: 24px;
+}
+
+.read-more-btn{
+    width: 120px;
+    height: 40px;
+    float: left;
+    margin: 20px 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: #ffd900;
+    border: 1px solid #ffd900;
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+.shop-now-btn{
+    width: 120px;
+    height: 40px;
+    float: left;
+    margin: 20px 0px 0px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #000000;
+    border: 1px solid #000000;
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+.read-more-btn:hover{
+    background-color: white;
+    color: #ffd900;
+    cursor: pointer;
+}
+
+.shop-now-btn:hover{
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+
+.banner-right img{
+    padding-left: 125px;
+}
+
+/* Top Product Section CSS */
+
+.top-products{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+    background-color: #F0F0F0;
+}
+
+.top-products-name{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.top-products .top-product-images{
+    display: block;
+    margin: 0 auto;
+}
+
+.top-product-details{
+    width: 30%;
+    float: left;
+    background-color: white;
+    margin: 60px 10px 60px;
+}
+
+.top-product-details .platter{
+    width: 60%;
+    display: block;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.top-product-details .plate-1{
+    height: 203px;
+}
+
+.top-product-details .icon{
+    width: 100%;
+    float: left;
+    padding-bottom: 6px;
+}
+
+.top-product-details .star-icon{
+    width: 15px;
+    height: 15px;
+    float: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.top-product-details .star-icon-1{
+    padding-left: 134px;
+}
+
+.top-product-details h4{
+    text-align: center;
+    color: #DC5C4E;
+}
+
+.add-to-cart-area{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+
+.cart-button{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 35px;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    border: 1px solid #ffd900;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.cart-img{
+    display: block;
+    float: left;
+    background-color: #ffd900;
+    width: 20px;
+    height: 15px;
+}
+
+.cart-button:hover{
+    background-color: #ffd900;
+    cursor: pointer;
+}
+
+.view-more-btn{
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #1a1818;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.4s;
+}
+
+.view-more-btn:hover{
+    background-color: white;
+    color: #1a1818;
+    cursor: pointer;
+}
+
+/* About Fresh Meal CSS */
+
+.about-fresh-meal{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+    background-color: #FFFFFF;
+}
+
+.about-section-left{
+    width: 50%;
+    float: left;
+    padding: 50px 0px;
+}
+
+.about-section-right{
+    width: 50%;
+    float: left;
+}
+
+.about-section-left img{
+    width: 490px;
+    height: 350px;
+}
+
+.about-section-right h2{
+    padding: 60px 0px 20px;
+    font-size: 22px;
+    color: #4c4646;
+}
+
+.about-section-right p{
+    color: #5e5b5b;
+    line-height: 28px;
+    padding: 20px 0px 80px;
+}
+
+.about-section-btn{
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #1a1818;
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.about-section-btn:hover{
+    background-color: white;
+    color: #1a1818;
+    cursor: pointer;
+}
+
+/* Services Section CSS */
+
+.services{
+    width: 100%;
+    float: left;
+    padding: 50px 0px 90px;
+    background-color: #F0F0F0;
+}
+
+.service-portions{
+    width: 30%;
+    float: left;
+    padding: 50px 0px;
+    margin: 0px 19px;
+}
+
+.service-portions img{
+    display: block;
+    margin: 0 auto;
+}
+
+.service-details{
+    width: 340px;
+    height: 270px;
+    margin: -45px auto;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px 0px;
+}
+
+.service-black-btn{
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #1a1818;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.4s;
+}
+
+.service-black-btn:hover{
+    background-color: white;
+    color: #1a1818;
+    cursor: pointer;
+}
+
+.service-details h2{
+    text-align: center;
+    padding: 60px 0px 20px;
+}
+
+.service-details p{
+    text-align: center;
+    color: #605c5c;
+    padding-bottom: 30px;
+}
+
+.service-yellow-btn{
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #ffd900;
+    border: 1px solid #ffd900;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.4s;
+}
+
+.service-yellow-btn:hover{
+    background-color: white;
+    color: #ffd900;
+    cursor: pointer;
+}
+
+.shadow{
+    width: 100%;
+    float: left;
+}
+
+.shadow .shadow-image{
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+
+/* Deal Section CSS */
+
+.deal-section{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background: linear-gradient( rgba(35,43,56,0.9) , rgba(35,43,56,0.9) ), url(../images/food-table.jpg);
+    
+}
+
+.deal-section-header{
+    color: white;
+}
+
+.deal-time{
+    width: 14%;
+    height: 160px;
+    float: left;
+    margin: 65px 15px;
+    background-color: #ffd900;
+    border-radius: 5px;
+}
+
+.deal-time h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 45px;
+}
+
+.deal-time p{
+    text-align: center;
+    color: white;
+}
+
+.deal-time-day{
+    margin-left: 207px;
+}
+
+/* Latest News Section CSS */
+
+.latest-news-section{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+    background-color: #F0F0F0;
+}
+
+.latest-news-section-left{
+    width: 48%;
+    float: left;
+    background-color: white;
+    margin: 55px 11px 30px;
+}
+
+.latest-news-section-right{
+    width: 48%;
+    float: left;
+    background-color: white;
+    margin: 55px 11px 30px;
+}
+
+.latest-news-section-left img{
+    width: 547px;
+    height: 480px;
+}
+
+.latest-news-section-right img{
+    width: 547px;
+    height: 480px;
+}
+
+.latest-news-section-left-content{
+    padding: 25px;
+}
+
+.latest-news-section-right-content{
+    padding: 25px;
+}
+
+.date{
+    display: block;
+    float: left;
+}
+
+.posted-by {
+    padding-left: 142px;
+    float: left;
+}
+
+.comments{
+    display: block;
+    float: right;
+}
+
+.latest-news-section-left h2{
+    float: left;
+    font-size: 22px;
+    padding: 25px 0px;
+}
+
+.latest-news-section-right h2{
+    float: left;
+    font-size: 22px;
+    padding: 25px 0px;
+}
+
+.details-para{
+    line-height: 25px;
+    color: #544d4d;
+}
+
+.latest-news-black-btn{
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #1a1818;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    margin: 0px auto;
+    transition: 0.4s;
+}
+
+.latest-news-black-btn:hover{
+    background-color: white;
+    color: #1a1818;
+    cursor: pointer;
+}
+
+/* Subscribe Section CSS */
+
+.subscribe-section{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+    background-color: #ffd900;
+}
+
+.subscribe-section-left{
+    width: 50%;
+    float: left;
+}
+
+.subscribe-section-right{
+    width: 50%;
+    float: left;
+}
+
+.subscribe-section-left img{
+    width: 510px;
+    height: 420px;
+}
+
+.subscribe-section-right h1{
+    padding: 120px 0px 20px;
+    font-size: 25px;
+}
+
+.input-btn-area{
+    width: 100%;
+    float: left;
+    background-color: white;
+    margin: 25px 0px;
+    border-radius: 7px;
+}
+
+.input-btn-area input{
+    padding-right: 270px;
+    border: none;
+    font-size: 14px;
+}
+
+.input-btn-area input:hover{
+    border: none;
+}
+
+.subscribe-btn{
+    width: 120px;
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: #ffd900;
+    border: 1px solid #ffd900;
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+.subscribe-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Contact Section CSS */
+
+.contact-section{
+    width: 100%;
+    float: left;
+}
+
+.contact-section-left{
+    width: 50%;
+    float: left;
+}
+
+.contact-section-right{
+    width: 50%;
+    float: left;
+}
+
+.contact-content-1{
+    width: 100%;
+    float: left;
+    margin: 40px 0px 20px;
+}
+
+.contact-content-1-left{
+    width: 40%;
+    float: left;
+}
+
+.contact-content-1-right{
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+}
+
+.contact-content-1-left img{
+    display: block;
+    float: right;
+}
+
+.contact-content-2{
+    width: 100%;
+    float: left;
+    margin: 0px 0px 20px;
+}
+
+.contact-content-2-left{
+    width: 40%;
+    float: left;
+}
+
+.contact-content-2-right{
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+}
+
+.contact-content-2-left img{
+    display: block;
+    float: right;
+}
+
+.contact-content-3{
+    width: 100%;
+    float: left;
+    margin: 0px 0px 20px;
+}
+
+.contact-content-3-left{
+    width: 40%;
+    float: left;
+}
+
+.contact-content-3-right{
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+}
+
+.contact-content-3-left img{
+    display: block;
+    float: right;
+}
+
+.map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+}
+
+.map iframe{
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* Link Section CSS */
+
+.link-section{
+    width: 100%;
+    float: left;
+    background-color: #2F323E;
+}
+
+.about-us{
+    width: 21%;
+    float: left;
+    padding: 70px 0px;
+    margin: 0px 20px;
+}
+
+.quick-links{
+    width: 21%;
+    float: left;
+    padding: 70px 0px;
+    margin: 0px 20px;
+}
+
+.follow-us{
+    width: 21%;
+    float: left;
+    padding: 70px 0px;
+    margin: 0px 20px;
+}
+
+.instagram{
+    width: 21%;
+    float: left;
+    padding: 70px 0px;
+    margin: 0px 20px;
+}
+
+.about-us h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffd900;
+}
+
+.about-us p{
+    text-align: center;
+    color: white;
+    margin: 20px 0px;
+    line-height: 25px;
+}
+
+.about-us-btn{
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #1a1818;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    transition: 0.4s;
+}
+
+.about-us-btn:hover{
+    background-color: white;
+    color: #1a1818;
+    cursor: pointer;
+}
+
+.quick-links h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffd900;
+}
+
+.link-items{
+    width: 100%;
+    float: left;
+    padding: 8px 0px;
+}
+
+.link-items p{
+    text-align: center;
+    color: white;
+}
+
+.home-link{
+    padding-top: 10px;
+}
+
+.link-items p:hover{
+    color: #ffd900;
+    cursor: pointer;
+}
+
+.follow-us h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffd900;
+}
+
+.social-link-items{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+}
+
+.social-link-items img{
+    display: block;
+    float: left;
+    padding: 3px 0px 0px 85px;
+}
+
+.social-link-items p{
+    display: block;
+    float: left;
+    color: white;
+    padding-left: 20px;
+}
+
+.social-link-items-facebook{
+    padding-top: 20px;
+}
+
+.social-link-items p:hover{
+    color: #ffd900;
+    cursor: pointer;
+}
+
+.instagram h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffd900;
+}
+
+.instagram-images{
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+
+.instagram-images img{
+    width: 69px;
+    height: 69px;
+    float: left;
+    padding: 5px;
+}
+
+/* Footer Section CSS */
+
+footer{
+    width: 100%;
+    float: left;
+    height: 50px;
+    background-color: #262A37;
+}
+
+footer h5{
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+}
+
+footer span{
+    color: #ffd900;
+}
